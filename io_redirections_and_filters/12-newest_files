@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -tl | grep ^- | head | cut -d " " -f10
+ls -tl | grep ^- | head
