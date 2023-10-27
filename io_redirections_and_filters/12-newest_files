@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -tl | grep ^- | head
+ls -tl | grep ^- | head | cut -d ' ' -f1-9 --complement
